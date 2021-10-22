@@ -37,7 +37,7 @@ else if (process.argv[2] == 'url') {
         webCat(process.argv[3]);
     }
 else {
-     console.log("Unknown method");
+     console.log("Unknown command");
      process.exit(1);
 }
  
