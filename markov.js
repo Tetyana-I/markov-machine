@@ -60,8 +60,4 @@ class MarkovMachine {
   }
 }
 
-// let mm = new MarkovMachine("That Sam-I-am That Sam-I-am! I do not like That Sam-I-am");
-// console.log(mm.makeChains());
-// console.log(mm.makeText(40));
-
 module.exports = { MarkovMachine };

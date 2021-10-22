@@ -37,6 +37,7 @@ else if (process.argv[2] == 'url') {
         webCat(process.argv[3]);
     }
 else {
-     console.log("No arguments were specified");
+     console.log("Unknown method");
+     process.exit(1);
 }
  
